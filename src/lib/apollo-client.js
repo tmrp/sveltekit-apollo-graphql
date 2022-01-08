@@ -1,12 +1,6 @@
-import Apollo, * as ApolloScope from '@apollo/client/core';
+import { HttpLink, InMemoryCache, ApolloClient } from '@apollo/client/core';
 
 import { environmentVariables } from './environment-variables';
-
-const HttpLink = Apollo?.HttpLink || ApolloScope?.HttpLink;
-
-const ApolloClient = Apollo?.ApolloClient || ApolloScope?.ApolloClient;
-
-const InMemoryCache = Apollo?.InMemoryCache || ApolloScope?.InMemoryCache;
 
 const link = new HttpLink({
 	uri: environmentVariables.starWarsApi
