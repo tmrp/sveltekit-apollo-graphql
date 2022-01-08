@@ -1,6 +1,6 @@
 # SvelteKit Apollo GraphQL Example with create-svelte
 
-Demo link
+[Demo link](https://sveltekit-apollo-graphql.netlify.app)
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
