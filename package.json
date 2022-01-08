@@ -22,7 +22,6 @@
 	"type": "module",
 	"dependencies": {
 		"@apollo/client": "^3.4.16",
-		"apollo-client": "^2.6.10",
 		"graphql": "^16.2.0"
 	}
 }
