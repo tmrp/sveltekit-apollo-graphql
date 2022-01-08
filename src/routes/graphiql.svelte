@@ -5,11 +5,11 @@
 	let ReactDOM;
 	let React;
 	let GraphiQL;
-	onMount(() => {
-		ReactDOM = window.ReactDOM;
-		React = window.React;
-		GraphiQL = window.GraphiQL;
-		fetcher = GraphiQL.createFetcher({
+	onMount(async () => {
+		ReactDOM = await window.ReactDOM;
+		React = await window.React;
+		GraphiQL = await window.GraphiQL;
+		fetcher = await GraphiQL.createFetcher({
 			url: environmentVariables.starWarsApi
 		});
 		ReactDOM.render(
